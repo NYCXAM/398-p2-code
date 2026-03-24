@@ -1,6 +1,7 @@
 """Tests for calculator operations."""
 import pytest
-from src.calculator import add, subtract, multiply, divide
+# added modulo to fix test bug
+from src.calculator import add, subtract, multiply, divide, modulo
 from src.validator import validate_range
 
 def test_add():
