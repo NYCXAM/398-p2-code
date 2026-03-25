@@ -3,6 +3,7 @@ This file implement the basic calculator operations, including
 addition, subtraction, multiplication, division, and modulus.
 """
 
+# deleted excessive debug logging
 def add(a, b):
     """Add two numbers."""
     print(f"[DEBUG] Adding {a} + {b}")
