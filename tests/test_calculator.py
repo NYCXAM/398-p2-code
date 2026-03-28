@@ -1,6 +1,6 @@
 """Tests for calculator operations."""
 import pytest
-# added modulo to fix test bug
+# Fix: import modulo to fix test bug
 from src.calculator import add, subtract, multiply, divide, modulo
 from src.validator import validate_range
 
