@@ -1,4 +1,8 @@
-"""Input validation for calculator."""
+"""Input validation for calculator.
+
+This module provides functions to validate user inputs before performing
+calculator operations, ensuring values are numeric and operations are supported.
+"""
 
 def validate_number(value):
     """Validate that value can be converted to a number."""
