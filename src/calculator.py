@@ -1,22 +1,37 @@
-"""Basic calculator operations."""
+"""
+This file implement the basic calculator operations, including
+addition, subtraction, multiplication, division, and modulus.
+"""
 
+# deleted excessive debug logging
 def add(a, b):
     """Add two numbers."""
-    return a + b
+    result = a + b
+    return result
 
 def subtract(a, b):
     """Subtract b from a."""
-    return a - b
+    result = a - b
+    return result
 
 def multiply(a, b):
     """Multiply two numbers."""
-    return a * b
+    result = a * b
+    return result
 
 def divide(a, b):
     """Divide a by b."""
     if b == 0:
         raise ValueError("Cannot divide by zero")
-    return a / b
+    result = a / b
+    return result
+
+def modulo(a, b):
+    """Return remainder of a divided by b."""
+    if b == 0:
+        raise ValueError("Cannot modulo by zero")
+    result = a % b
+    return result
 
 def power(a, b):
     """Raise a to the power of b."""
