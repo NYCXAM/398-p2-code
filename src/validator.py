@@ -1,7 +1,7 @@
 """Input validation for calculator.
 
-This module provides functions to validate user inputs before performing
-calculator operations, ensuring values are numeric and operations are supported.
+handles validation of numbers and operations before they are used
+in any calculator function.
 """
 
 def validate_number(value):
@@ -26,5 +26,5 @@ def validate_positive(n):
         return False
 
 def is_positive(n):
-    """Check if a number is positive."""
+    """check if a number is positive."""
     return n > 0
