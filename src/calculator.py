@@ -1,4 +1,5 @@
 """Basic calculator operations."""
+# Experiment: exploring additional math operations
 import math
 
 def add(a, b):
